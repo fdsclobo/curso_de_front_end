@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>PRACTICA 1</title>
+</head>
+<body>
+    <h1><em>Inscripcion</em></h1>
+    <div class="conteiner">
+        <img class="center-img" src="/ejercicios de practica/gimnasia-y-esgrima-de-la-plata-logo/gimnasia-y-esgrima-de-la-plata-logo.svg"  width="500" height="200">
+    </div>
+ 
+        <h2>Solicitud de inscripcion</h2>
+        <div>
+            <p><strong>ipsum</strong> dolor sit, amet consectetur adipisicing 
+            elit.<br>Dignissimos aut eius culpa molestias asperiores,
+            obcaecati, numquam libero rerum, placeat ipsam dicta 
+            velit consectetur cupiditate repellendus sit voluptas 
+            reprehenderit recusandae quis!</p>
+        </div>
+        
+        <form action="/practica_1.html" method="get">
+        <div class="conteiner-formulario">
+            <h3><strong><em>Formulario</em></strong></h3>
+            
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" placeholder="Su nombre" required><br>
+            
+            <label for="contrasenia">Password:</label>
+            <input type="password" id="contrasenia" placeholder="Clave" required><br>
+            
+            <label for="fecha">Fecha de nacimiento</label><br>
+            <input type="date" id="fecha" required><br>
+            
+            <label for="origen">Pais:</label>
+            <select name="pais">
+                <option value="Ar">Argentina</option>
+                <option value="Es">España</option>
+                <option value="Mx">México</option>
+                <option value="Gu">Guatemala</option>
+                <option value="Ho">Honduras</option>
+                <option value="Er">El Salvador</option>
+                <option value="Ve">Venezuela</option>
+                <option value="Col">Colombia</option>
+                <option value="Cu">Cuba</option>
+                <option value="Bol">Bolivia</option>
+                <option value="Pe">Perú</option>
+                <option value="Ec">Ecuador</option>
+                <option value="Pa">Paraguay</option>
+                <option value="Ur">Uruguay</option>
+                <option value="Ch">Chile</option>
+              </select><br>
+            
+            <label for="sex">Sexo:</label>
+            <select>
+                <option value="M">Masculino</option>
+                <option value="F">Femenino</option>
+                <option value="O">Otrxs</option>    
+            </select><br>
+            
+            <label for="correo">Email:</label>
+            <input type="email" id="correo" placeholder="Correro electronico" required><br>
+            
+            <label for="telefono">Tel/cel:</label>
+            <input type="tel" id="telefono" placeholder="Numero de Tel/Cel" required><br>
+
+            <label for="comentarios">Comentarios</label><br>
+            <textarea name="comentarios" id="commit" required></textarea><br>
+
+            <div>
+                <p>¿Desea recibir informacion?</p>
+                <label for="yes">Si</label>
+                <input type="checkbox" id="yes">
+                <label for="no">No</label>
+                <input type="checkbox" id="no"><br>
+            </div>
+            <p>Foto de perfil</p>
+            <input type="file" id="perfil"><br><br>
+
+            
+            <button type="reset">Borrar</button>
+            <input type="submit" value="Enviar">
+            <button type="submit">Enviar</button>
+        </div>
+        </form>
+        
+        <div>
+            <nav>
+                <ol type="i">
+                    <li><a href="https://www.google.com.ar/?hl=es">Google</a></li>
+                    <li><a href="https://www.eldia.com/">Diario</a></li>
+                </ol>
+            </nav>
+            <a href="/ejercicios de practica/practica_2.html">Volver</a>
+        </div>
+</body>
+</html>

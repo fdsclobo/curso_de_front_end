@@ -1,0 +1,61 @@
+body{
+    background-color: blanchedalmond;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+form{
+    max-width: 300px;
+    margin: 0px;
+}
+
+label{
+    display: block;
+    margin-top: 8px;
+}
+
+.inputStyles{
+    border: 1px solid rgb(8, 8, 90);
+    border-radius: 4px;
+    width: 75%;
+    padding: 3px;
+}
+
+select{
+    appearance: none;
+    display: block;
+    border-radius: 4px;
+    width: 50%;
+    padding: 2px;
+    border: 1px solid blue;
+    margin-bottom: 5px;
+}
+
+.inputSubmit{
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 5px 15px;
+    margin: 5px 15px 0px 15px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.buttonReset{
+    background-color: brown;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 5px 15px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.inputSubmit:hover{
+    background-color: aliceblue;
+    color: blue;
+}
+
+.buttonReset:hover{
+    background-color: aliceblue;
+    color: brown;
+}
