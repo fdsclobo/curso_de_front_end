@@ -1,24 +1,47 @@
-#grid{
-    /* vamos a decirle a ese contenedor que su contenido va a ser una grilla */
+.grid-template{
+    background-color: rgb(202, 255, 255);
     display: grid;
-    /* Armado de plantilla de columnas y filas */
-    /* grid-template-columns: repeat(5,1fr) ; /* 1fr: significa que  */
-    /*ocupa TODO EL ESPACIO LIBRE que tenga*/
-
-    /** ejemplo de grip-template-column pero en porcentaje*/
-    grid-template-columns: 20% 20% 1fr 15% 15%;
-    grid-template-rows: 1fr;
-    /* grid-gap: es la separacion entre cada elemento de la grilla */
-    grid-gap: 2vw;
-    background-color: brown;
+    /* cada linea de template representa UNA FILA*/
+    grid-template-areas:
+    "header header header header"
+    "nav sectionA sectionB aside"
+    "footer footer footer footer"
+    ;
+    /* creamos el tamaño de las filas y columnas */
+    grid-template-rows: 20% 1fr 10%;
+    grid-template-columns: 20% 1fr 1fr 15% ;
+    grid-gap: 10px;
+    height: 100vh;
+    margin: 0px;
+}
+/* cadena de elementos */
+header,nav,section,aside,footer {
+    background-color: yellow;
+    border: 1px solid black;
 }
 
-.grid-div{
-    font-size: 5vw ;
-    background-color: blue;
-    color: white;
-    border: 1px solid black;
-    padding: .5em;
-    text-align: center;
-    margin: 5px;
+/* vamos a decirles a cada elemento QUE AREA DEBE OCUPAR */
+
+#pageHeader{
+    grid-area:header;
+}
+
+#pageNav{
+    grid-area: nav;
+}
+
+#pageSection {
+    grid-area: sectionA;
+}
+
+#pageSection2{
+    grid-area: sectionB;
+}
+
+#pageAside{
+    grid-area: aside;
+}
+
+#pageFooter{
+    grid-area: footer;
 }
