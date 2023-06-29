@@ -3,15 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos.css">
-    <title>Grid Template</title>
+    <!--Importacion de CSS-->
+    <link rel="stylesheet" href="estilo.css">
+    <title>Pagina display grid/flex</title>
 </head>
-<body class="grid-template">
-        <header id="pageHeader">Soy el Header</header>
-        <nav id="pageNav">Soy un Nav</nav>
-        <section id="pageSection">Aca hay una Seccion</section>
-        <section id="pageSection2">Aca hay una Seccion2</section>
-        <aside id="pageAside">Esto es el Aside</aside>
-        <footer id="pageFooter">Este es mi footer</footer>
+<body>
+    <header class="divHeader">
+        <h1>Compras Web</h1>
+        <nav>
+            <ul>
+                <a href=""><li>Inicio</li></a>
+                <a href=""><li>Productos</li></a>
+                <a href=""><li>Quienes Somos</li></a>
+                <a href=""><li>Contacto</li></a>
+            </ul>
+        </nav>
+    </header>
+    <main class="divMain">
+        <section class="card">
+            <h3>Tamagotchi</h3>
+            <img src="/imagenes/Tamagotchi_0124_ubt.jpeg" alt="" srcset="">
+            <p>Mascota Virtual</p>
+        </section>
+        <section class="card">
+            <h3>Fiat 147</h3>
+            <img src="/imagenes/147.jpg" alt="" srcset="">
+            <p>Auto de pibe pistero</p>
+        </section>
+        <section class="card">
+            <h3>Dodge Charger</h3>
+            <img src="/imagenes/Dodge-Charger-Wallpaper-HD4.jpg" alt="" srcset="">
+            <p>Un clasico de lo '70</p>
+        </section>
+        <section class="card">
+            <h3>Ropa Usada</h3>
+            <img src="/imagenes/ropa-usada.png" alt="" srcset="">
+            <p>Diferentes modelos y diseños</p>
+        </section>
+    </main>
+    <footer class="divFooter">
+        <p>Practica para global Academy</p>
+    </footer>
 </body>
 </html>
