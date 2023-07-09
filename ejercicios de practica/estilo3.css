@@ -1,3 +1,8 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
 body { /* voy a darle propiedades a mi body*/
     display: grid;
     grid-template-areas: 
@@ -38,14 +43,29 @@ nav ul{
     flex: row;
     align-items: center;
     justify-content: space-evenly;
-    font-size: 1.5em;
+    font-size: 2rem;
+    padding: 2rem;
 
 }
+
+          
+.transUp{
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+.transUp:hover{
+    transform: translatey(-20px);
+        -webkit-transform: translatey(-20px);
+        -moz-transform: translatey(-20px);
+}
+              
 
 a{
     /* le quitamos la decoracion de abajo a mis elementos de tipo link*/
     text-decoration: none;
     color: aliceblue;
+    cursor: pointer;
 }
 
 .divMain{
