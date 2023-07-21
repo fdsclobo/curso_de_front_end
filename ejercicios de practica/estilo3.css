@@ -66,6 +66,7 @@ a{
     text-decoration: none;
     color: aliceblue;
     cursor: pointer;
+ 
 }
 
 .divMain{
@@ -93,6 +94,7 @@ a{
     aspect-ratio: 16/9; /* aspecto de estirado*/
     object-fit: contain;
 }
+
 
 .divFooter{
     background-color: rgb(4, 4, 85);
