@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <script src="./js/modernizr.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,300&family=Handjet:wght@300&family=Lora:ital@1&family=Mukta:wght@200&family=Poppins:wght@100&family=Roboto:wght@300&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <title>Mi Portafolios</title>
+</head>
+<body>
+    <header>
+            <nav class="navbar barra navbar navbar-expand-lg" data-bs-theme="dark" >
+                <div class="container-fluid ">
+                    <a class="navbar-brand" href="#">FERNANDO SEMINARIO CONTE</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link "href="#">PORTFOLIO</a>
+                        <a class="nav-link" href="#">ACERCA DE MÍ</a>
+                        <a class="nav-link" href="#">CONTACTOS</a>
+                    </div>
+                </div>
+                </div>
+            </nav>
+    </header>
+    <main>
+        <section class="container-fluid">
+            <article class="mb-5">
+                <div class=" perfil">
+                    <img src="./img/1.jpg" class="mx-auto d-block img-principal m-5 " alt="">
+                    <h2>FERNANDO SEMINARIO CONTE</h2>
+                    <h3>Programador</h3>
+                </div>
+            </article>
+        </section>
+        <section class="fondos">
+            <article>
+                <div class="container-fluid text-center p-0">
+                    <h3>Lenguajes</h3>
+                    <div class="row row-cols-3 m-5">
+                        <div class="col">
+                            <img src="./img/html-css-js.webp" class="img-fluid rounded" alt="">
+                        </div>
+                        <div class="col">
+                            <img src="./img/python.png" class="img-fluid rounded" alt="">
+                        </div>
+                        <div class="col">
+                            <img src="./img/java-logo.webp" class="img-fluid rounded" alt="">
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <article>
+            <div class="container-fluid text-center ">
+                <h3>Acerca de mi</h3>
+                <img src="./img/imagen.jfif" alt="" class=" mt-2 mb-3">
+                <p>Estudinte de Lic en inforatica en la UNLP, curso de front-end, python (basico) y java (en curso)</p>
+            </div>
+        </article>
+        <article class="fondos">
+            <div class="container-fluid text-center  ">
+                <form action="" class="">
+                    <div class="container mt-2">
+                        <h3>Contactame</h3>
+                        <form>
+                          <div class="form-group">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" class="form-control" id="nombre" name="nombre" required>
+                          </div>
+                          <div class="form-group">
+                            <label for="correo">Correo electrónico:</label>
+                            <input type="email" class="form-control" id="correo" name="correo" required>
+                          </div>
+                          <div class="form-group">
+                            <label for="comentario">Comentario:</label>
+                            <textarea class="form-control" id="comentario" name="comentario" rows="4" required></textarea>
+                          </div>
+                          <div class="m-2 p-3">
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                            <button type="reset" class="btn btn-danger">Borrar</button>
+                          </div>
+                        </form>
+                      </div>
+                </form>
+            </div>
+        </article>
+    </main>
+    <footer class="container-fluid mb-0">
+        <div class="container">
+            <h4>Fernando Seminario Conte</h4>
+            <h5>Contactos</h5>
+            <hr>
+            <p>seminarioconte@gmail.com</p>
+            <p>tel :55-555-555</p>
+        </div>
+    </footer>
+</body>
+</html>
