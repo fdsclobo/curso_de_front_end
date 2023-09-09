@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../trabajo practico/css/normalize.css">
-    <link rel="stylesheet" href="../trabajo practico/css/style.css">
+    <link rel="stylesheet" href="../trabajo_practico/css/normalize.css">
+    <link rel="stylesheet" href="../trabajo_practico/css/style.css">
     <script src="../trabajo practico/js/modernizr.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
@@ -17,14 +17,14 @@
     <header >
         <nav class="navbar barra navbar navbar-expand-lg bg-body-tertiary m-0 p-0">
           <div class="container-fluid">
-            <a class="navbar-brand" href="./index.html"><h1 class="tipulo">Electro web</h1></a>
+            <a class="navbar-brand" href="../trabajo_practico/index.html"><h1 class="tipulo">Electro web</h1></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#despliegue" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="despliegue">
               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                  <a class="nav-link active" aria-current="page" href="../trabajo_practico/index.html">Inicio</a>
                 </li>
                 
                 <li class="nav-item dropdown">
@@ -32,16 +32,16 @@
                     Productos
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="/trabajo practico/computadoras.html">Computadoras</a></li>
-                    <li><a class="dropdown-item" href="/trabajo practico/celulares.html">Celulares</a></li>
+                    <li><a class="dropdown-item" href="../trabajo_practico/computadoras.html">Computadoras</a></li>
+                    <li><a class="dropdown-item" href="../trabajo_practico/celulares.html">Celulares</a></li>
                   </ul>
                 </li>
                 
                 <li class="nav-item">
-                  <a class="nav-link" href="/trabajo practico/ofertas.html">Ofertas</a>
+                  <a class="nav-link" href="../trabajo_practico/ofertas.html">Ofertas</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/trabajo practico/contactos.htm">Contactos</a>
+                  <a class="nav-link" href="../trabajo_practico/contactos.htm">Contactos</a>
                 </li>
               </ul>
             </div>
@@ -51,27 +51,32 @@
 
     <main class="contenedor-main">
         <section>
-        <article class="img-principal-pro texto-principal ">
-       
-          <h1 class="tipulo-principal ">Productos</h1>
-          <P> Seleciona el preducto que desea visitar</P>
+        <article class="img-principal-cont texto-principal ">
+          <h1 class="tipulo-principal ">Contactos</h1>
         </article>
 
-        <article>
-            <div class="contenedor-imagenes">
-              <div class="cartas" style="width: 40rem;">
-                <a href="./celulares.html"><img src="./img/apple/celulares/iphone 14 pro max-violeta.webp" class="card-img-top" alt="..."></a>
-         
+        <div>
+      
+          <div class="contacto-bg"></div>
+          <form class="formulario " action="">
+              <div class="campo ">
+                  <label class="campo-label" for="">Nombre</label>
+                  <input class="campo-input" type="text" placeholder="Ingrese su nombre">
               </div>
-              
-              <div class="cartas" style="width: 40rem;">
-                
-                <a href="./computadoras.html"><img src="./img/img-produc-compu/Hp Envy 16 I7-12700h.webp" class="card-img-top mt-5 pt-5" alt="..."></a>
-                
+              <div class="campo ">
+                  <label class="campo-label mx-2" for="">E-mail</label>
+                  <input class="campo-input " type="email" name="" id="" placeholder="Ingrese su Email">
               </div>
-            </div>
-        </article>
-        </section> 
+              <div class="campo">
+                  <label class="campo-label" for="">Mensaje</label>
+                  <textarea class="campo-input campo-textarea" placeholder="Mensaje..." name="" id="" cols="30" rows="10"></textarea>
+              </div>
+              <div class="campo">
+                  <input title="Enviar Formulario" class="boton btn-form " type="submit" value="Enviar">
+              </div>
+          </form>
+        </div>
+        </section>
     </main>
     <footer class="container-fluid pie-pagina m-0 p-0 ">
         <div class="py-1 px-2">
