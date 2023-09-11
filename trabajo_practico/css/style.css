@@ -245,7 +245,32 @@ footer{
   background-color: black;
 }
 
+@media (max-width: 820px){
+   /*--pagina-contactos--*/
+.img-principal-cont{
+  background-image: url(../img/img-comtactos-prin.jpg);
+  background-size: cover;
+  background-position: center center ;
+  background-repeat: no-repeat;
 
+}
+
+/* Contacto*/
+.contacto-bg{
+  background-image: url(../img/fondo-body.jpg);
+  height: 20vw; /* va a ocupar el 50% del tamaño que tenga la pagina*/
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.formulario{
+  border-radius: 2rem;
+  margin: -1rem auto 0 auto; /* el margin negativo hace que se superpongan los elementos*/
+  background-color: var(--color2);
+  width: auto;
+  padding: 1rem;
+}
+}
 
 @media (min-width: 375px){
   /*--pagina-contactos--*/
