@@ -244,3 +244,473 @@ footer{
   font-family: var(--letra1);
   background-color: black;
 }
+
+
+@media (max-width: 768px) {
+
+  h1, h2, h3, h5 {
+    -webkit-text-stroke: 1px var(--color1);
+    line-height: 1.2;
+  }
+  
+  /*tamaño de los textos*/
+  h1 {
+    font-size: 4.8rem;
+  }
+  h2 {
+    font-size: 4rem;
+  }
+  h3 {
+    font-size: 2.4rem;
+  }
+  h4 {
+    font-size: 1.6rem;
+  }
+  /*----------------------*/
+  body {
+    font-size: 2rem;
+    line-height: 2;
+  
+  }
+  
+  .texto-principal {
+    text-align: center;
+    color: var(--color2);
+    padding: 15rem;
+    font-size: /*2rem*/ clamp(1rem,5vw,5rem)
+  }
+  /*--pagina-principal--*/
+  .img-principal{
+      background-image: url(../img/tienda-computadora-venta.jpg);
+      background-size: cover;
+      background-position: center center ;
+      background-repeat: no-repeat;
+      height: 1fr;
+      width: 1fr;
+  
+  }
+  .tipulo {
+    font-family: var(--letra1);
+    margin: auto;
+    font-size: 2rem;
+  }
+  
+  .tipulo-principal{
+    font-family: var(--letra1);
+    margin: auto;
+    font-size: /*2rem*/ clamp(1.5rem,5vw,6rem);
+    
+  }
+  
+  .p-principal{
+    font-size: 2rem;
+  }
+  
+  nav {
+    margin-right: -0.7rem;
+    margin-left: -1rem;
+  }
+  
+  nav ul li {
+    font-size: 2rem;
+    padding: 0 1rem;
+  }
+                
+  .toStretch{
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+    background-color: orange;
+    border-radius: 1rem ;
+    font-size: 3rem;
+  }
+  .toStretch:hover{
+    transform: scale(2, 0.5);
+        -webkit-transform: scale(1.2, 0.5);
+        -moz-transform: scale(1.2, 0.5);
+  }
+              
+  .decoracion{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .container-img{
+    display: flex;
+    gap: 0.5rem;
+    margin: auto;
+    padding: 1.35rem
+  
+  }
+  
+  .cartas{
+    font-size: 1.5rem;
+    box-shadow: 0px 1px 10px rgba(0,0,0, 2);
+    cursor: default;
+    transition: all 400ms ease;
+  }
+  
+  .cartas:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0, 4);
+    transform: translateY(-3%);
+  }
+  
+  
+  /*--pagina-productos--*/
+  
+  .img-principal-pro{
+    background-image: url(../img/img-productos-prin.jfif);
+    background-size: cover;
+    background-position: center center ;
+    background-repeat: no-repeat;
+    height: 1fr;
+    width: 1fr;
+  }
+  
+  .contenedor-imagenes{
+    display:flex ;
+    justify-content: center;
+    gap: 10rem;
+    margin: 5rem 0 ;
+  
+  }
+  
+  .carta-pro{
+  
+  }
+  
+  /*--pagina-celulares--*/
+  
+  .img-principal-cel{
+    background-image: url(../img/celulares-img-prin.webp);
+    background-size: cover;
+    background-position: center center ;
+    background-repeat: no-repeat;
+    height: 1fr;
+    width: 1fr;
+  }
+  
+  
+  /*--pagina-computadoras--*/
+  .img-principal-com{
+    background-image: url(../img/imp-computadora-prin.webp);
+    background-size: cover;
+    background-position: center center ;
+    background-repeat: no-repeat;
+    height: 1fr;
+    width: 1fr;
+  }
+  
+  /*--pagina-ofertas--*/
+  /*.img-principal-ofe{
+    background-image: url(../img/banners-home-outlet.jpg);
+    background-size:cover;
+    background-position:center center;
+    background-repeat: no-repeat;
+    height: 1fr;
+    width: 1fr;
+  }*/
+  
+  
+  /*--pagina-contactos--*/
+  .img-principal-cont{
+    background-image: url(../img/img-comtactos-prin.jpg);
+    background-size: cover;
+    background-position: center center ;
+    background-repeat: no-repeat;
+  
+  }
+  
+  /* Contacto*/
+  .contacto-bg{
+    background-image: url(../img/fondo-body.jpg);
+    height: 50vh; /* va a ocupar el 50% del tamaño que tenga la pagina*/
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .formulario{
+    border-radius: 2rem;
+    margin: -25rem auto 0 auto; /* el margin negativo hace que se superpongan los elementos*/
+    background-color: var(--color2);
+    width: 85%;
+    padding: 5rem;
+  }
+  
+  .campo{
+    display: flex;
+    margin-bottom: 2rem;
+  }
+  
+  .campo-label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: right;
+    flex: 0 0 9rem;
+    padding-right: 2rem;
+    font-size: 2rem;
+  }
+  
+  .campo-input{
+    flex: 1;
+    border-radius: 5px;
+    border: 1px solid var(--color1);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+  }
+  
+  .campo-textarea{
+  
+    height: 25rem;
+  }
+  
+  .btn-form{
+    cursor: pointer;
+    font-size: 2rem;
+    border-radius: 1rem;
+  }
+  
+  .btn-form:hover{
+    background-color: aquamarine;
+  }
+  
+  footer{
+  
+    color: hwb(208 94% 0%);
+    font-family: var(--letra1);
+    background-color: black;
+  }
+}
+@media (min-width: 769px) {
+  
+h1, h2, h3, h5 {
+  -webkit-text-stroke: 1px var(--color1);
+  line-height: 1.2;
+}
+
+/*tamaño de los textos*/
+h1 {
+  font-size: 4.8rem;
+}
+h2 {
+  font-size: 4rem;
+}
+h3 {
+  font-size: 2.4rem;
+}
+h4 {
+  font-size: 1.6rem;
+}
+/*----------------------*/
+body {
+  font-size: 2rem;
+  line-height: 2;
+
+}
+
+.texto-principal {
+  text-align: center;
+  color: var(--color2);
+  padding: 15rem;
+  font-size: /*2rem*/ clamp(1rem,5vw,5rem)
+}
+/*--pagina-principal--*/
+.img-principal{
+    background-image: url(../img/tienda-computadora-venta.jpg);
+    background-size: cover;
+    background-position: center center ;
+    background-repeat: no-repeat;
+    height: 1fr;
+    width: 1fr;
+
+}
+.tipulo {
+  font-family: var(--letra1);
+  margin: auto;
+  font-size: 2rem;
+}
+
+.tipulo-principal{
+  font-family: var(--letra1);
+  margin: auto;
+  font-size: /*2rem*/ clamp(1.5rem,5vw,6rem);
+  
+}
+
+.p-principal{
+  font-size: 2rem;
+}
+
+nav {
+  margin-right: -0.7rem;
+  margin-left: -1rem;
+}
+
+nav ul li {
+  font-size: 2rem;
+  padding: 0 1rem;
+}
+              
+.toStretch{
+  transition: .5s, color .10s;
+      -webkit-transition: .5s, color .10s;
+      -moz-transition: .5s, color .10s;
+  background-color: orange;
+  border-radius: 1rem ;
+  font-size: 3rem;
+}
+.toStretch:hover{
+  transform: scale(2, 0.5);
+      -webkit-transform: scale(1.2, 0.5);
+      -moz-transform: scale(1.2, 0.5);
+}
+            
+.decoracion{
+  text-decoration: none;
+  color: black;
+}
+
+.container-img{
+  display: flex;
+  gap: 0.5rem;
+  margin: auto;
+  padding: 1.35rem
+
+}
+
+.cartas{
+  font-size: 1.5rem;
+  box-shadow: 0px 1px 10px rgba(0,0,0, 2);
+  cursor: default;
+  transition: all 400ms ease;
+}
+
+.cartas:hover{
+  box-shadow: 5px 5px 20px rgba(0,0,0, 4);
+  transform: translateY(-3%);
+}
+
+
+/*--pagina-productos--*/
+
+.img-principal-pro{
+  background-image: url(../img/img-productos-prin.jfif);
+  background-size: cover;
+  background-position: center center ;
+  background-repeat: no-repeat;
+  height: 1fr;
+  width: 1fr;
+}
+
+.contenedor-imagenes{
+  display:flex ;
+  justify-content: center;
+  gap: 10rem;
+  margin: 5rem 0 ;
+
+}
+
+.carta-pro{
+
+}
+
+/*--pagina-celulares--*/
+
+.img-principal-cel{
+  background-image: url(../img/celulares-img-prin.webp);
+  background-size: cover;
+  background-position: center center ;
+  background-repeat: no-repeat;
+  height: 1fr;
+  width: 1fr;
+}
+
+
+/*--pagina-computadoras--*/
+.img-principal-com{
+  background-image: url(../img/imp-computadora-prin.webp);
+  background-size: cover;
+  background-position: center center ;
+  background-repeat: no-repeat;
+  height: 1fr;
+  width: 1fr;
+}
+
+/*--pagina-ofertas--*/
+/*.img-principal-ofe{
+  background-image: url(../img/banners-home-outlet.jpg);
+  background-size:cover;
+  background-position:center center;
+  background-repeat: no-repeat;
+  height: 1fr;
+  width: 1fr;
+}*/
+
+
+/*--pagina-contactos--*/
+.img-principal-cont{
+  background-image: url(../img/img-comtactos-prin.jpg);
+  background-size: cover;
+  background-position: center center ;
+  background-repeat: no-repeat;
+
+}
+
+/* Contacto*/
+.contacto-bg{
+  background-image: url(../img/fondo-body.jpg);
+  height: 50vh; /* va a ocupar el 50% del tamaño que tenga la pagina*/
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.formulario{
+  border-radius: 2rem;
+  margin: -25rem auto 0 auto; /* el margin negativo hace que se superpongan los elementos*/
+  background-color: var(--color2);
+  width: 85%;
+  padding: 5rem;
+}
+
+.campo{
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.campo-label{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: right;
+  flex: 0 0 9rem;
+  padding-right: 2rem;
+  font-size: 2rem;
+}
+
+.campo-input{
+  flex: 1;
+  border-radius: 5px;
+  border: 1px solid var(--color1);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 2rem;
+}
+
+.campo-textarea{
+
+  height: 25rem;
+}
+
+.btn-form{
+  cursor: pointer;
+  font-size: 2rem;
+  border-radius: 1rem;
+}
+
+.btn-form:hover{
+  background-color: aquamarine;
+}
+
+footer{
+
+  color: hwb(208 94% 0%);
+  font-family: var(--letra1);
+  background-color: black;
+}
+}
