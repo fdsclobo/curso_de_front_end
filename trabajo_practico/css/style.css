@@ -245,7 +245,7 @@ footer{
   background-color: black;
 }
 
-@media (max-width: 660px){
+@media (max-width: 547px){
   /*--pagina-contactos--*/
 .img-principal-cont{
  background-image: url(../img/img-comtactos-prin.jpg);
