@@ -140,9 +140,6 @@ nav ul li {
 
 }
 
-.carta-pro{
-
-}
 
 /*--pagina-celulares--*/
 
@@ -244,6 +241,9 @@ footer{
   font-family: var(--letra1);
   background-color: black;
 }
+
+/*---------------------------------------------------------------------------------------------*/
+
 /*celular*/
 @media(max-width: 767px){
   /*tipulo principal*/
@@ -306,7 +306,32 @@ footer{
 .btn-form:hover{
   background-color: aquamarine;
 }
+
+/*--pagina-productos--*/
+
+.img-principal-pro{
+  background-image: url(../img/img-productos-prin.jfif);
+  background-size: cover;
+  background-position: center center ;
+  background-repeat: no-repeat;
+  height: 1fr;
+  width: 1fr;
 }
+
+.contenedor-imagenes{
+  display:flex ;
+  justify-content: center;
+  gap: 4rem;
+  margin: 2rem;
+
+}
+
+
+
+}
+
+
+
 /*tablet*/
 @media(min-width:768px) and (max-width:990px){
 
