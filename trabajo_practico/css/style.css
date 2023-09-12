@@ -265,7 +265,7 @@ footer{
   border-radius: 2rem;
   margin: -25rem auto 0 auto; /* el margin negativo hace que se superpongan los elementos*/
   background-color: var(--color2);
-  width: 95%;
+  width: 100%;
   padding: 2rem;
   
 }
@@ -294,7 +294,7 @@ footer{
 
 .campo-textarea{
 
-  height: 25rem;
+  height: 20rem;
 }
 
 .btn-form{
